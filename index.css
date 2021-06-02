@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+}
+#profile{
+    border-radius: 4050%;
+    width: 175px;
+}
+#welcome {
+background: linear-gradient(#ff0000 0%,#ff00ff 100%);
+text-align: center;
+height: 700px;
+position: absolute;
+color: ghostwhite;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+display: table;
+width: 100%;
+z-index: 9;
+}
+.line{
+    width: 70px;
+    background-color: black;
+    height: 7px;
+    margin: 8px auto;
+}
+p {
+    max-width: 700px;
+    margin: 10px auto;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.MENU {
+    list-style: none;
+    top: 10px;
+    font-size: 30px;
+    right: 100px;
+    z-index: 10;
+    position: absolute;}
+.links {
+    float: left;
+    text-decoration-color : firebrick;
+    padding : 10px;
+}
+.parelex {
+    display: table-cell;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+}
